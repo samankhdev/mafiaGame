@@ -1,7 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="centerInParent">
+    <div class="outOfHomeDiv">
+      <button class="btn btn-start">شروع
+        <span class="div-icon">
+      <img src="../assets/img/start.png" class="start-icon">
+    </span>
+      </button>
+    <button class="btn btn-settings">تنظیمات
+<span class="div-icon">
+      <img src="../assets/img/settings.png" class="settings-icon">
+    </span>
+    </button>
+    <button class="btn btn-exit">خروج
+    <span class="div-icon">
+      <img src="../assets/img/exit.png" class="exit-icon">
+    </span>
+    </button>
+    </div>
   </div>
 </template>
 
@@ -10,6 +25,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
+  
   name: 'Home',
   components: {
     HelloWorld
