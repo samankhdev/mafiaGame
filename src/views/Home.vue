@@ -1,11 +1,11 @@
 <template>
   <div class="centerInParent">
     <div class="outOfHomeDiv">
-      <button class="btn btn-start">شروع
+      <router-link to="/select-user" class="btn btn-start">شروع
         <span class="div-icon">
       <img src="../assets/img/start.png" class="start-icon">
     </span>
-      </button>
+      </router-link>
     <button class="btn btn-settings">تنظیمات
 <span class="div-icon">
       <img src="../assets/img/settings.png" class="settings-icon">
