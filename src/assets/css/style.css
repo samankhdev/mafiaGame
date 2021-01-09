@@ -32,7 +32,7 @@
     height: 100%;
     width: 100%;
 }
-.btn{
+.centerInParent .btn{
     width: 320px;
     padding: 20px;
     border: 0;
@@ -50,7 +50,7 @@
     position: relative;
     transition: 0.3s all ease-in-out;
 }
-.btn:hover{
+.centerInParent .btn:hover{
 transform: scale(0.95);
 background-color: rgba(226, 21, 21, 0.39);
 }
@@ -69,4 +69,16 @@ background-color: rgba(226, 21, 21, 0.39);
 .div-icon img{
 width: 25px;
 height: 25px;
+}
+#boxSelectUser{
+    border-radius: 4px;
+width: 75%;
+height: 100%;
+background-color:#fff;
+}
+#boxSelectUser-checkboxs{
+ height: auto;
+}
+.frm-chooseUser{
+    direction: rtl;
 }

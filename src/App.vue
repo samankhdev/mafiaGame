@@ -1,7 +1,9 @@
 <template>
   <div>
     <img src="./assets/img/background.jpg" alt="" srcset="" id="background">
-    <router-view/>
+    <div class="d-flex justify-content-center align-items-center p-5">
+      <router-view/>
+    </div>
   </div>
 </template>
 
