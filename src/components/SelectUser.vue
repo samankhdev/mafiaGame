@@ -26,7 +26,7 @@ methods:{
         localStorage.clear();
         localStorage.setItem("username",`${this.nameUser}`);
         console.log("ok");
-        window.location.replace("/select-job");
+        window.location.replace("/show-names");
     }else{
       alert("لطفا نام خود را وارد نمایید.");
     }

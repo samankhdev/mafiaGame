@@ -15,7 +15,7 @@ const routes = [
     component: SelectUser
   },
   {
-    path: '/',
+    path: '/show-names',
     name: 'showNames',
     component: ShowNames
   },
