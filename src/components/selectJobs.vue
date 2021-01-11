@@ -26,7 +26,7 @@
             </ul>
       </div>
       <div class="card card-footer">
-          <router-link to="select-jobs" class="btn btn-outline-danger">شروع</router-link>
+          <router-link to="Choose" class="btn btn-outline-danger">شروع</router-link>
       </div>
   </div></template>
 
@@ -35,10 +35,9 @@ export default {
 data(){
     return{
         jobs:[
-        
-        {id:1,name:"ساقی",color:"danger"},
+        {id:1,name:"شهروند عادی",color:"danger"},
         {id:2,name:"دزد",color:"black-50"},
-        {id:3,name:"گودفادر",color:"black"},
+        {id:3,name:"بمب ساز",color:"black"},
         {id:4,name:"رییس مافیا",color:"warning"},
         {id:5,name:"کاراگاه",color:"info"},
         {id:6,name:"شهردار",color:"primary"}

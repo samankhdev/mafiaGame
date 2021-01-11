@@ -98,3 +98,16 @@ background-color:#fff;
 .disabledBtn{
     
 }
+.btn-Choose{
+    border-radius: 0 !important;
+    transition: 0.4s all ease-in-out;
+    
+}
+.btn-Choose:hover{
+    background-color: #da2a2a;
+    border:1px solid #df3e3e;
+
+}
+.borderRadius{
+    border-radius: 4px !important;
+}

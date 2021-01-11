@@ -3,7 +3,7 @@ import Home from '../views/Home.vue'
 import SelectUser from "../components/SelectUser.vue"
 import ShowNames from "../components/ShowNames.vue"
 import selectJobs from "../components/selectJobs.vue"
-
+import Choose from "../components/Choose.vue"
 const routes = [
   {
     path: '/',
@@ -25,6 +25,11 @@ const routes = [
     name: 'selectJobs',
     component: selectJobs
   },
+  {
+    path: '/choose',
+    name: 'Choose',
+    component: Choose
+  }
 ]
 
 const router = createRouter({
