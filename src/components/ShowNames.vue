@@ -31,9 +31,6 @@ data(){
             {id:5,name:"رضا پیوندی"}
         
         ],
-        YourName:'',
-        array:[],
-        times:5
     }
 },
 methods:{
@@ -48,6 +45,13 @@ computed:{
             this.YourName=name;
     },
    
+},
+
+created(){
+
+const stringify=JSON.stringify(this.names)
+console.log(stringify);
+localStorage.setItem("players",stringify)
 }
 }
 </script>
