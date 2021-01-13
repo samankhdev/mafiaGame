@@ -35,7 +35,7 @@ data(){
 },
 methods:{
     next(){
-        window.location.replace("/select-jobs")
+        window.location.replace("/day1")
     }
 },
 computed:{

@@ -3,7 +3,7 @@ import Home from '../views/Home.vue'
 import SelectUser from "../components/SelectUser.vue"
 import ShowNames from "../components/ShowNames.vue"
 import selectJobs from "../components/selectJobs.vue"
-import Choose from "../components/Choose.vue"
+import Day1 from "../components/Day1.vue"
 const routes = [
   {
     path: '/',
@@ -26,9 +26,9 @@ const routes = [
     component: selectJobs
   },
   {
-    path: '/choose',
-    name: 'Choose',
-    component: Choose
+    path: '/day1',
+    name: 'Day1',
+    component: Day1
   }
 ]
 
