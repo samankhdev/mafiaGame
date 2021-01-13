@@ -111,3 +111,6 @@ background-color:#fff;
 .borderRadius{
     border-radius: 4px !important;
 }
+.btn-Choose{
+    direction: rtl;
+}
