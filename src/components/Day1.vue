@@ -51,7 +51,7 @@ methods:{
         document.querySelector("#groupBtns").classList.add("d-block");
         document.querySelector("#btn1").classList.add("d-none");
         }else{
-                alert();
+                window.location.replace("/day5");
         }
 
     },

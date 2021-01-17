@@ -4,6 +4,8 @@ import SelectUser from "../components/SelectUser.vue"
 import ShowNames from "../components/ShowNames.vue"
 import selectJobs from "../components/selectJobs.vue"
 import Day1 from "../components/Day1.vue"
+import Day5 from "../components/Day5.vue"
+import Day12 from "../components/Day12.vue"
 const routes = [
   {
     path: '/',
@@ -29,6 +31,16 @@ const routes = [
     path: '/day1',
     name: 'Day1',
     component: Day1
+  },
+  {
+    path: '/day5',
+    name: 'Day5',
+    component: Day5
+  },
+  {
+    path: '/day12',
+    name: 'Day12',
+    component: Day12
   }
 ]
 
